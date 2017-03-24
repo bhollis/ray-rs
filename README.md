@@ -1,5 +1,7 @@
 # Rust Raytracer
 
+[![Build Status](https://travis-ci.org/bhollis/ray-rs.svg?branch=master)](https://travis-ci.org/bhollis/ray-rs)
+
 Back in college I made a C++ raytracer with photon mapping in a graphics class. This year I found the code again and got it running, then decided to rewrite it in Rust as a learning tool. Note that most of the original code was provided as a "starter kit" to me and isn't mine - I had just implemented the renderer.
 
 The goal is to replicate the existing features:
@@ -22,6 +24,7 @@ With some additions:
 * [ ] Improved sampling for area lights and diffuse reflections.
 * [ ] Overall faster rendering speed!
 * [ ] Maybe some other lighting tricks like thin films, subsurface scattering, etc.
+* [ ] Tests
 
 And some stretch goals:
 
